@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "textpage-docker"
+version = "0.1.0"
+description = ""
+authors = ["Lucas <lucas-mvs@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "textpage_docker"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.0"
+sqlalchemy = "^2.0.40"
+psycopg2 = "^2.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
